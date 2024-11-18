@@ -1,0 +1,74 @@
+/* App.css */
+
+/* Container styling */
+.container {
+  background-color: #007bff;
+  max-width: 800px;
+  margin: auto;
+  padding-top: 20px;
+}
+
+/* Header styling */
+h2 {
+  background-color: #28a745; /* Green background */
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+/* Card styling */
+.card {
+  background-color: #00bcd4; /* Teal background */
+  color: white;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Card title styling */
+.card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Button styling */
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 20px;
+}
+
+/* Margin between cards */
+.card + .card {
+  margin-top: 20px;
+  background-color: aquamarine;
+}
+/* Profile image styling */
+.profile-img {
+  width: 150px;
+  height: 150px;
+  
+  margin-right: 20px;
+  object-fit: cover;
+}
+
+/* Adjust margin for card content */
+.card-body {
+  display: flex;
+  align-items: center;
+}
+
+.ml-3 {
+  margin-left: 20px; /* Adjusts spacing between image and text */
+}
+/* Profile image in modal */
+.profile-img.mb-3 {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
